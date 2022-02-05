@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
-import Body from './components/Ui/Body';
+import Board from './components/Board';
+import Calendar from './components/Calendar';
 import Header from './components/Ui/Header';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body/>
+      <Header />
+      <Calendar />
+      <Board />
     </div>
   );
 }
